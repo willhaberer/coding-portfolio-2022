@@ -2,12 +2,12 @@
   color: white;
   margin: 0.7em;
   margin-top: 1em;
-  background: rgb(28, 44, 91);
+  background: rgb(28, 44, 91, 0.4);
   background: linear-gradient(
     180deg,
-    rgba(28, 44, 91, 1) 33%,
-    rgba(108, 171, 221, 1) 91%,
-    rgba(108, 171, 221, 1) 100%
+    rgba(28, 44, 91, 0.4) 33%,
+    rgba(108, 171, 221, 0.4) 91%,
+    rgba(108, 171, 221, 0.4) 100%
   );
   vertical-align: middle;
 }

@@ -6,6 +6,7 @@ import "./styles/App.css";
 import particlesOptions from "./particles.json";
 
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 import Home from "./pages/Home";
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
             <Route exact path="/" element={<Home />} />
           </Routes>
         </div>
+        <Footer />
       </BrowserRouter>
     </div>
   );
