@@ -5,3 +5,13 @@
   width: 90%;
   margin: auto;
 }
+
+#footerContact {
+  font-size: 4rem;
+  margin-bottom: -0.2rem;
+}
+
+#contactLogo {
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
