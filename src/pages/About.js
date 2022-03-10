@@ -15,6 +15,14 @@ import mySqlLogo from "../assets/mySqlLogo.png";
 import mongoLogo from "../assets/mongoLogo.png";
 import seqLogo from "../assets/sequelizeLogo.png";
 import jestLogo from "../assets/jestLogo.png";
+import gitLogo from "../assets/gitLogo.png";
+import npmLogo from "../assets/npmLogo.png";
+import herokuLogo from "../assets/herokuLogo.png";
+import premiereLogo from "../assets/premiereLogo.png";
+import leadershipLogo from "../assets/leadershipLogo.png";
+import gimpLogo from "../assets/gimpLogo.png";
+import bcryptLogo from "../assets/bcryptLogo.png";
+import webApi from "../assets/webAPIS.png";
 
 function About() {
   return (
@@ -159,6 +167,91 @@ function About() {
                 id="skillLogo"
               ></img>
               <h5 id="caption">Jest</h5>
+            </li>
+          </ul>
+        </div>
+        <h5 id="aboutSubHeader">Other Skills</h5>
+        <div id="backEnd">
+          <ul id="card-wrapper">
+            <li id="skillCard">
+              <img
+                src={gitLogo}
+                alt="Git Logo"
+                height="50%"
+                width="50%"
+                id="skillLogo"
+              ></img>
+              <h5 id="caption">Git</h5>
+            </li>
+            <li id="skillCard">
+              <img
+                src={npmLogo}
+                alt="NPM Logo"
+                height="50%"
+                width="50%"
+                id="skillLogo"
+              ></img>
+              <h5 id="caption">NPM</h5>
+            </li>
+            <li id="skillCard">
+              <img
+                src={herokuLogo}
+                alt="Heroku Logo"
+                height="50%"
+                width="50%"
+                id="skillLogo"
+              ></img>
+              <h5 id="caption">Heroku</h5>
+            </li>
+            <li id="skillCard">
+              <img
+                src={premiereLogo}
+                alt="PremierePro Logo"
+                height="50%"
+                width="50%"
+                id="skillLogo"
+              ></img>
+              <h5 id="caption">Premeire Pro</h5>
+            </li>
+            <li id="skillCard">
+              <img
+                src={leadershipLogo}
+                alt="Leadership"
+                height="50%"
+                width="50%"
+                id="skillLogo"
+              ></img>
+              <h5 id="caption">Leadership</h5>
+            </li>
+            <li id="skillCard">
+              <img
+                src={gimpLogo}
+                alt="Gimp2 Logo"
+                height="50%"
+                width="50%"
+                id="skillLogo"
+              ></img>
+              <h5 id="caption">Gimp2</h5>
+            </li>
+            <li id="skillCard">
+              <img
+                src={bcryptLogo}
+                alt="Bcrypt Logo"
+                height="50%"
+                width="50%"
+                id="skillLogo"
+              ></img>
+              <h5 id="caption">BCrypt</h5>
+            </li>
+            <li id="skillCard">
+              <img
+                src={webApi}
+                alt="Web API's"
+                height="50%"
+                width="50%"
+                id="skillLogo"
+              ></img>
+              <h5 id="caption">Web APIs</h5>
             </li>
           </ul>
         </div>
