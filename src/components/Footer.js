@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 import ghLogo from "../assets/ghLogo.png";
 import liLogo from "../assets/LiLogo.png";
