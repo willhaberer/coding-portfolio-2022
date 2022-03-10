@@ -28,7 +28,7 @@ const Footer = () => {
           <img src={liLogo} alt="Linkedin Logo" height="8%" width="8%"></img>
         </a>
         <a
-          href="https://www.linkedin.com/in/will-haberer/"
+          href="mailto:willhaberer@gmail.com?subject=Reaching Out From Your Portfolio"
           target="_blank"
           rel="noreferrer"
           id="contactLogo"
