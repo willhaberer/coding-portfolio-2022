@@ -1,14 +1,21 @@
 #navbar {
+  color: white;
   margin: 0.7em;
   margin-top: 1em;
-  border: solid white 1px;
+  background: rgb(28, 44, 91);
+  background: linear-gradient(
+    180deg,
+    rgba(28, 44, 91, 1) 33%,
+    rgba(108, 171, 221, 1) 91%,
+    rgba(108, 171, 221, 1) 100%
+  );
+  vertical-align: middle;
 }
 
 #link {
+  display: inline;
   cursor: pointer;
-
   margin-right: 1em;
-
   text-decoration: none;
   color: white;
 }
