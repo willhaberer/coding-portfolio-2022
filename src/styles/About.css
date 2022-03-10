@@ -9,3 +9,41 @@
 #aboutHeader {
   font-size: 3.5rem;
 }
+
+#aboutSubHeader {
+  text-align: left;
+  font-size: 2rem;
+  background: rgb(28, 44, 91, 0.8);
+  width: 90%;
+  margin: auto;
+}
+
+#card-wrapper {
+  display: flex;
+}
+
+#skillCard {
+  margin-left: 0.6rem;
+  margin-right: 0.6rem;
+  margin-bottom: 0.8rem;
+  padding: 0;
+  background: rgb(28, 44, 91, 0.4);
+  width: 15%;
+  height: 15%;
+  list-style: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 25px;
+}
+
+#skillLogo {
+  padding-top: 0.5rem;
+}
+
+#caption {
+  font-size: 1rem;
+}
+
+#skillCard:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
