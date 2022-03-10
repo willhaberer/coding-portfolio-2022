@@ -8,6 +8,7 @@ import particlesOptions from "./particles.json";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
+import About from "./pages/About";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <div id="body">
           <Routes>
             <Route exact path="/" element={<Home />} />
+            <Route exact path="/about" element={<About />} />
           </Routes>
         </div>
         <Footer />
