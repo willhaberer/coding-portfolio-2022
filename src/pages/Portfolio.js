@@ -21,7 +21,11 @@ function Portfolio() {
         <img class="image__img" src={fmsn} alt="Find Me Something New"></img>
         <div class="image__overlay image__overlay--blur" id="bottomOverlay">
           <div class="image__title">Find Me Something New</div>
-          <p class="image__description">Here we have a brick wall.</p>
+          <p class="image__description">
+            FMSN offers users an app that can randomely generate new music with
+            a relatively low amount of streams. FMSN also allows users to save
+            these songs to their profile to listen again later.
+          </p>
           <div id="projectLinks">
             <a
               href="https://github.com/willhaberer/Find-Me-Something-New"
@@ -60,7 +64,7 @@ function Portfolio() {
         <img class="image__img" src={ftnssjnks} alt="Ftnss Jnks"></img>
         <div class="image__overlay image__overlay--blur">
           <div class="image__title">Ftnss Jnks</div>
-          <p class="image__description">Here we have a brick wall.</p>
+          <p class="image__description">Here we have a bri.</p>
           <div id="projectLinks">
             <a
               href="https://github.com/hyanez/Ftnss-Jnks"
