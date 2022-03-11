@@ -10,6 +10,8 @@ import cssLogo from "../assets/cssLogo.png";
 import javascriptLogo from "../assets/javascriptLogo.png";
 import mernLogo from "../assets/mernLogo.png";
 import webApi from "../assets/webAPIS.png";
+import mysqlLogo from "../assets/mySqlLogo.png";
+import expressLogo from "../assets/expressLogo.png";
 
 import "../styles/Portfolio.css";
 
@@ -22,67 +24,16 @@ function Portfolio() {
         links!
       </h4>
       <h3 id="projectName">MERN Stack</h3>
-      <div class="image">
-        <img class="image__img" src={fmsn} alt="Find Me Something New"></img>
-        <div class="image__overlay image__overlay--blur" id="bottomOverlay">
-          <div class="image__title">Find Me Something New</div>
-          <p class="image__description">
+      <div class="porImage">
+        <img class="porImage__img" src={fmsn} alt="Find Me Something New"></img>
+        <div class="porImage__overlay porImage__overlay--blur">
+          <div class="porImage__title">Find Me Something New</div>
+          <p class="porImage__description">
             FMSN offers users an app that can randomely generate new music with
             a relatively low amount of streams. FMSN also allows users to save
             these songs to their profile to listen again later.
           </p>
-          <ul id="card-wrapper">
-            <li id="skillCard">
-              <img
-                src={html5Logo}
-                alt="HTML5 Logo"
-                height="50%"
-                width="50%"
-                id="skillLogo"
-              ></img>
-              <h5 id="caption">HTML5</h5>
-            </li>
-            <li id="skillCard">
-              <img
-                src={cssLogo}
-                alt="CSS Logo"
-                height="50%"
-                width="50%"
-                id="skillLogo"
-              ></img>
-              <h5 id="caption">CSS</h5>
-            </li>
-            <li id="skillCard">
-              <img
-                src={javascriptLogo}
-                alt="Javascript Logo"
-                height="50%"
-                width="50%"
-                id="skillLogo"
-              ></img>
-              <h5 id="caption">Javascript</h5>
-            </li>
-            <li id="skillCard">
-              <img
-                src={mernLogo}
-                alt="Mern Logo"
-                height="50%"
-                width="50%"
-                id="skillLogo"
-              ></img>
-              <h5 id="caption">MERN</h5>
-            </li>
-            <li id="skillCard">
-              <img
-                src={webApi}
-                alt="Web API's"
-                height="50%"
-                width="50%"
-                id="skillLogo"
-              ></img>
-              <h5 id="caption">Web APIs</h5>
-            </li>
-          </ul>
+
           <div id="projectLinks">
             <a
               href="https://github.com/willhaberer/Find-Me-Something-New"
@@ -118,11 +69,12 @@ function Portfolio() {
       </div>
       <br></br>
       <h3 id="projectName">Backend and Data Modeling</h3>
-      <div class="image">
-        <img class="image__img" src={ftnssjnks} alt="Ftnss Jnks"></img>
-        <div class="image__overlay image__overlay--blur">
-          <div class="image__title">Ftnss Jnks</div>
-          <p class="image__description">Here we have a bri.</p>
+      <div class="porImage">
+        <img class="porImage__img" src={ftnssjnks} alt="Ftnss Jnks"></img>
+        <div class="porImage__overlay porImage__overlay--blur">
+          <div class="porImage__title">Ftnss Jnks</div>
+          <p class="porImage__description">Here we have a bri.</p>
+
           <div id="projectLinks">
             <a
               href="https://github.com/hyanez/Ftnss-Jnks"
@@ -157,11 +109,11 @@ function Portfolio() {
       </div>
       <br></br>
       <h3 id="projectName">Full Stack</h3>
-      <div class="image" id="bottomImage">
-        <img class="image__img" src={wd} alt="Weather Dash"></img>
-        <div class="image__overlay image__overlay--blur">
-          <div class="image__title">Weather Dashboard</div>
-          <p class="image__description">Here we have a brick wall.</p>
+      <div class="porImage" id="bottomImage">
+        <img class="porImage__img" src={wd} alt="Weather Dash"></img>
+        <div class="porImage__overlay porImage__overlay--blur">
+          <div class="porImage__title">Weather Dashboard</div>
+          <p class="porImage__description">Here we have a brick wall.</p>
           <div id="projectLinks">
             <a
               href="https://github.com/willhaberer/Weather-Dashboard"
