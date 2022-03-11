@@ -54,6 +54,7 @@ function Portfolio() {
           </div>
         </div>
       </div>
+      <br></br>
       <h3 id="projectName">Backend and Data Modeling</h3>
       <div class="image">
         <img class="image__img" src={ftnssjnks} alt="Ftnss Jnks"></img>
@@ -92,6 +93,7 @@ function Portfolio() {
           </div>
         </div>
       </div>
+      <br></br>
       <h3 id="projectName">Full Stack</h3>
       <div class="image" id="bottomImage">
         <img class="image__img" src={wd} alt="Weather Dash"></img>
