@@ -16,11 +16,11 @@ function Portfolio() {
         *Hover over a project to learn more or to view the deployment and Github
         links!
       </h4>
-      <h3 id="projectName">Find Me Something New</h3>
+      <h3 id="projectName">MERN Stack</h3>
       <div class="image">
         <img class="image__img" src={fmsn} alt="Find Me Something New"></img>
         <div class="image__overlay image__overlay--blur" id="bottomOverlay">
-          <div class="image__title">FMSN</div>
+          <div class="image__title">Find Me Something New</div>
           <p class="image__description">Here we have a brick wall.</p>
           <div id="projectLinks">
             <a
@@ -32,8 +32,8 @@ function Portfolio() {
               <img
                 src={ghLogo}
                 alt="Github Logo"
-                height="25%"
-                width="25%"
+                height="20%"
+                width="20%"
               ></img>
               <div>Github</div>
             </a>
@@ -46,15 +46,15 @@ function Portfolio() {
               <img
                 src={deploymentLogo}
                 alt="Deployment Logo"
-                height="25%"
-                width="25%"
+                height="20%"
+                width="20%"
               ></img>
               <div>Deployment</div>
             </a>
           </div>
         </div>
       </div>
-      <h3 id="projectName">Ftnss Jnks</h3>
+      <h3 id="projectName">Backend and Data Modeling</h3>
       <div class="image">
         <img class="image__img" src={ftnssjnks} alt="Ftnss Jnks"></img>
         <div class="image__overlay image__overlay--blur">
@@ -70,8 +70,8 @@ function Portfolio() {
               <img
                 src={ghLogo}
                 alt="Github Logo"
-                height="25%"
-                width="25%"
+                height="20%"
+                width="20%"
               ></img>
               <div>Github</div>
             </a>
@@ -84,15 +84,15 @@ function Portfolio() {
               <img
                 src={deploymentLogo}
                 alt="Deployment Logo"
-                height="25%"
-                width="25%"
+                height="20%"
+                width="20%"
               ></img>
               <div>Deployment</div>
             </a>
           </div>
         </div>
       </div>
-      <h3 id="projectName">Weather Dashboard</h3>
+      <h3 id="projectName">Full Stack</h3>
       <div class="image" id="bottomImage">
         <img class="image__img" src={wd} alt="Weather Dash"></img>
         <div class="image__overlay image__overlay--blur">
@@ -108,8 +108,8 @@ function Portfolio() {
               <img
                 src={ghLogo}
                 alt="Github Logo"
-                height="25%"
-                width="25%"
+                height="20%"
+                width="20%"
               ></img>
               <div>Github</div>
             </a>
@@ -122,8 +122,8 @@ function Portfolio() {
               <img
                 src={deploymentLogo}
                 alt="Deployment Logo"
-                height="25%"
-                width="25%"
+                height="20%"
+                width="20%"
               ></img>
               <div>Deployment</div>
             </a>
