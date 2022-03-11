@@ -23,6 +23,7 @@ import leadershipLogo from "../assets/leadershipLogo.png";
 import gimpLogo from "../assets/gimpLogo.png";
 import bcryptLogo from "../assets/bcryptLogo.png";
 import webApi from "../assets/webAPIS.png";
+import handlebars from "../assets/handlebars.png";
 
 function About() {
   return (
@@ -92,6 +93,16 @@ function About() {
                 id="skillLogo"
               ></img>
               <h5 id="caption">Bootstrap</h5>
+            </li>
+            <li id="skillCard">
+              <img
+                src={handlebars}
+                alt="Handlebars Logo"
+                height="50%"
+                width="50%"
+                id="skillLogo"
+              ></img>
+              <h5 id="caption">Handlebars</h5>
             </li>
           </ul>
         </div>
