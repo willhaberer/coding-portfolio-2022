@@ -1,0 +1,11 @@
+#portfolioContainer {
+  text-align: center;
+  background: rgb(28, 44, 91, 0.4);
+  width: 90%;
+  margin: auto;
+}
+
+#portfolioHeader {
+  font-size: 3.5rem;
+  color: white;
+}
