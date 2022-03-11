@@ -5,6 +5,11 @@ import ftnssjnks from "../assets/ftnssjnks.png";
 import wd from "../assets/wd.png";
 import ghLogo from "../assets/ghLogo.png";
 import deploymentLogo from "../assets/deploymentLogo.png";
+import html5Logo from "../assets/html5Logo.png";
+import cssLogo from "../assets/cssLogo.png";
+import javascriptLogo from "../assets/javascriptLogo.png";
+import mernLogo from "../assets/mernLogo.png";
+import webApi from "../assets/webAPIS.png";
 
 import "../styles/Portfolio.css";
 
@@ -26,6 +31,58 @@ function Portfolio() {
             a relatively low amount of streams. FMSN also allows users to save
             these songs to their profile to listen again later.
           </p>
+          <ul id="card-wrapper">
+            <li id="skillCard">
+              <img
+                src={html5Logo}
+                alt="HTML5 Logo"
+                height="50%"
+                width="50%"
+                id="skillLogo"
+              ></img>
+              <h5 id="caption">HTML5</h5>
+            </li>
+            <li id="skillCard">
+              <img
+                src={cssLogo}
+                alt="CSS Logo"
+                height="50%"
+                width="50%"
+                id="skillLogo"
+              ></img>
+              <h5 id="caption">CSS</h5>
+            </li>
+            <li id="skillCard">
+              <img
+                src={javascriptLogo}
+                alt="Javascript Logo"
+                height="50%"
+                width="50%"
+                id="skillLogo"
+              ></img>
+              <h5 id="caption">Javascript</h5>
+            </li>
+            <li id="skillCard">
+              <img
+                src={mernLogo}
+                alt="Mern Logo"
+                height="50%"
+                width="50%"
+                id="skillLogo"
+              ></img>
+              <h5 id="caption">MERN</h5>
+            </li>
+            <li id="skillCard">
+              <img
+                src={webApi}
+                alt="Web API's"
+                height="50%"
+                width="50%"
+                id="skillLogo"
+              ></img>
+              <h5 id="caption">Web APIs</h5>
+            </li>
+          </ul>
           <div id="projectLinks">
             <a
               href="https://github.com/willhaberer/Find-Me-Something-New"
@@ -36,11 +93,12 @@ function Portfolio() {
               <img
                 src={ghLogo}
                 alt="Github Logo"
-                height="20%"
-                width="20%"
+                height="16%"
+                width="16%"
               ></img>
               <div>Github</div>
             </a>
+
             <a
               href="https://fmsn.herokuapp.com/"
               target="_blank"
@@ -50,8 +108,8 @@ function Portfolio() {
               <img
                 src={deploymentLogo}
                 alt="Deployment Logo"
-                height="20%"
-                width="20%"
+                height="13%"
+                width="13%"
               ></img>
               <div>Deployment</div>
             </a>
@@ -75,8 +133,8 @@ function Portfolio() {
               <img
                 src={ghLogo}
                 alt="Github Logo"
-                height="20%"
-                width="20%"
+                height="16%"
+                width="16%"
               ></img>
               <div>Github</div>
             </a>
@@ -89,8 +147,8 @@ function Portfolio() {
               <img
                 src={deploymentLogo}
                 alt="Deployment Logo"
-                height="20%"
-                width="20%"
+                height="13%"
+                width="13%"
               ></img>
               <div>Deployment</div>
             </a>
@@ -114,8 +172,8 @@ function Portfolio() {
               <img
                 src={ghLogo}
                 alt="Github Logo"
-                height="20%"
-                width="20%"
+                height="16%"
+                width="16%"
               ></img>
               <div>Github</div>
             </a>
@@ -128,8 +186,8 @@ function Portfolio() {
               <img
                 src={deploymentLogo}
                 alt="Deployment Logo"
-                height="20%"
-                width="20%"
+                height="13%"
+                width="13%"
               ></img>
               <div>Deployment</div>
             </a>
