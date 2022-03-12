@@ -50,7 +50,7 @@ function About() {
         <p id="aboutPbottom">
           In my free time you can find me tring out a new recipe in the kitchen,
           both creating and solving puzzles, and playing/coaching hockey or
-          soccer. I'm always interested in discussing politics, Formula One and
+          soccer. I'm always interested in discussing politics, Formula One or
           whatever book I'm currently reading!
         </p>
       </div>
