@@ -34,12 +34,16 @@
   padding-left: 1rem;
 }
 
+#titleLink {
+  text-decoration: none;
+  color: white;
+}
+
 #navList {
   position: absolute;
   display: flex;
   flex-wrap: wrap;
   height: 95%;
-
   vertical-align: middle;
   align-items: center;
   right: 0.5rem;

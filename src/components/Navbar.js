@@ -8,12 +8,14 @@ const Navbar = () => {
   return (
     <div id="navbar">
       <div id="siteName">
-        <TypeAnimation
-          cursor={true}
-          sequence={["Will Haberer Portfolio", 1000, "Will Haberer"]}
-          wrapper="h2"
-          repeat={1}
-        />
+        <Link id="titleLink" to="/">
+          <TypeAnimation
+            cursor={true}
+            sequence={["Will Haberer Portfolio", 1000, "Will Haberer"]}
+            wrapper="h2"
+            repeat={1}
+          />
+        </Link>
       </div>
       <div id="navList">
         <Link id="link" to="/about">
