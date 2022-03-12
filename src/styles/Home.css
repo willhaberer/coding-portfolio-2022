@@ -36,10 +36,19 @@
   margin-right: auto;
   width: 30%;
   font-size: 3.25rem;
-  background: rgb(28, 44, 91, 0.35);
+  background: rgb(28, 44, 91, 0.25);
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 25px;
   box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.6);
+}
+#resume:hover {
+  background: rgb(28, 44, 91);
+  background: linear-gradient(
+    270deg,
+    rgba(28, 44, 91, 0.35) 40%,
+    rgba(28, 171, 221, 0.35) 70%,
+    rgba(108, 171, 221, 0.35) 100%
+  );
 }
