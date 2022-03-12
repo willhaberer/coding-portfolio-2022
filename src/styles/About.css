@@ -1,4 +1,5 @@
-#skillsContainer {
+#skillsContainer,
+#aboutContainer {
   text-align: center;
   background: rgb(28, 44, 91, 0.4);
   color: white;
@@ -8,6 +9,21 @@
 
 #aboutHeader {
   font-size: 3.5rem;
+}
+
+#aboutP {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.5rem;
+  padding-bottom: 0.5rem;
+}
+#aboutPbottom {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.5rem;
+  padding-bottom: 2rem;
 }
 
 #aboutSubHeader {

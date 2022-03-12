@@ -29,7 +29,31 @@ import chameleon from "../assets/chameleon.png";
 function About() {
   return (
     <div id="mainContainer">
-      <h1>About</h1>
+      <div id="aboutContainer">
+        <h3 id="aboutHeader">About Me</h3>
+        <p id="aboutP">
+          Hello, I am a 23 year old graduate graduate from the Columbia
+          University Full Stack Web Development program ready and excited to
+          start my career in Tech. In 2020 I graduated from the University of
+          Virginia with a Bachelor's Of Arts in Government. Most recently I
+          worked as a Digital and Data Director for WRS, a consulting firm based
+          out of central Virginia. In this role my duties included project
+          managment as well as ensuring data was analyzed and presented to
+          relevant parties to target areas of oppurtunity.
+        </p>
+        <p id="aboutP">
+          One of the many reasons I love to code is the ability to both use the
+          creative and logical parts of my brain. Due to my past work, I am most
+          comfortable on the back end working with data, but am adaptable enough
+          to work as a Full Stack developer.
+        </p>
+        <p id="aboutPbottom">
+          In my free time you can find me tring out a new recipe in the kitchen,
+          both creating and solving puzzles, and playing/coaching hockey or
+          soccer. I'm always interested in discussing politics, Formula One and
+          whatever book I'm currently reading!
+        </p>
+      </div>
       <div id="skillsContainer">
         <h3 id="aboutHeader">Skills</h3>
         <h5 id="aboutSubHeader">Front End</h5>
