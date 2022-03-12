@@ -12,7 +12,7 @@ This React Portfolio was built to showcase past projects I have worked on as wel
 
 ## Mock-Up
 
-<img src="./assets/homepage.png" alt="Home-Page" >
+<img src="/src/assets/homepage.png" alt="Home-Page" >
 
 ## Credits
 
