@@ -15,7 +15,7 @@ function Home() {
         Feel free to reach out to me at: willhaberer@gmail.com
       </p>
       <a
-        href="https://drive.google.com/file/d/1GP5RDbzsVETde3ZWHzxVNIWHApLOJaq1/view?usp=sharing"
+        href="https://drive.google.com/file/d/1dajCpMUXYZkPetFmzWwFPCbmbqNgqxis/view?usp=sharing"
         target="_blank"
         rel="noreferrer"
         id="resumeA"
