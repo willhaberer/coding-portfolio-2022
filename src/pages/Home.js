@@ -5,7 +5,7 @@ import "../styles/Home.css";
 function Home() {
   return (
     <div id="homeContainer">
-      <h1 id="homeHeader">I'm Will, Welcome to My Portfolio</h1>
+      <h1 id="homeHeader">Hello, Welcome to My Portfolio</h1>
       <p id="homeP">
         I'm excited to start a career in Full-Stack Web Development where I can
         translate my passion for creating and solving logic based puzzles into a
