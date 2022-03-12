@@ -14,6 +14,14 @@ function Home() {
       <p id="homeBottomP">
         Feel free to reach out to me at: willhaberer@gmail.com
       </p>
+      <a
+        href="https://drive.google.com/file/d/1GP5RDbzsVETde3ZWHzxVNIWHApLOJaq1/view?usp=sharing"
+        target="_blank"
+        rel="noreferrer"
+        id="resumeA"
+      >
+        <h4 id="resume">Resume</h4>
+      </a>
     </div>
   );
 }
