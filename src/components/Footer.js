@@ -17,7 +17,13 @@ const Footer = () => {
           rel="noreferrer"
           id="contactLogo"
         >
-          <img src={ghLogo} alt="Github Logo" height="8%" width="8%"></img>
+          <img
+            id="logo"
+            src={ghLogo}
+            alt="Github Logo"
+            height="8%"
+            width="8%"
+          ></img>
         </a>
         <a
           href="https://www.linkedin.com/in/will-haberer/"
@@ -25,7 +31,13 @@ const Footer = () => {
           rel="noreferrer"
           id="contactLogo"
         >
-          <img src={liLogo} alt="Linkedin Logo" height="8%" width="8%"></img>
+          <img
+            id="logo"
+            src={liLogo}
+            alt="Linkedin Logo"
+            height="8%"
+            width="8%"
+          ></img>
         </a>
         <a
           href="mailto:willhaberer@gmail.com?subject=Reaching Out From Your Portfolio"
@@ -33,7 +45,13 @@ const Footer = () => {
           rel="noreferrer"
           id="contactLogo"
         >
-          <img src={emailLogo} alt="Email Logo" height="8%" width="8%"></img>
+          <img
+            id="logo"
+            src={emailLogo}
+            alt="Email Logo"
+            height="8%"
+            width="8%"
+          ></img>
         </a>
       </div>
     </div>
