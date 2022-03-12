@@ -51,4 +51,6 @@
     rgba(28, 171, 221, 0.35) 70%,
     rgba(108, 171, 221, 0.35) 100%
   );
+  transform: scale(1.1);
+  transition: all ease 500ms;
 }
