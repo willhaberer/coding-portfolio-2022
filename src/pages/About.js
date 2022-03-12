@@ -24,6 +24,7 @@ import gimpLogo from "../assets/gimpLogo.png";
 import bcryptLogo from "../assets/bcryptLogo.png";
 import webApi from "../assets/webAPIS.png";
 import handlebars from "../assets/handlebars.png";
+import chameleon from "../assets/chameleon.png";
 
 function About() {
   return (
@@ -203,6 +204,16 @@ function About() {
                 id="skillLogo"
               ></img>
               <h5 id="caption">NPM</h5>
+            </li>
+            <li id="skillCard">
+              <img
+                src={chameleon}
+                alt="Chameleon"
+                height="50%"
+                width="50%"
+                id="skillLogo"
+              ></img>
+              <h5 id="caption">Adaptability</h5>
             </li>
             <li id="skillCard">
               <img
