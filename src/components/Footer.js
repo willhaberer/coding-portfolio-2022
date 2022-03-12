@@ -9,7 +9,7 @@ import "../styles/Footer.css";
 const Footer = () => {
   return (
     <div id="footer">
-      <h3 id="footerContact">Contact</h3>
+      <h3 id="contact">Contact</h3>
       <div id="contactLinks">
         <a
           href="https://github.com/willhaberer"

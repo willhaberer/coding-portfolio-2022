@@ -24,12 +24,9 @@ const Navbar = () => {
         <Link id="link" to="/portfolio">
           Portfolio
         </Link>
-        <Link id="link" to="/resume">
-          Resume
-        </Link>
-        <Link id="link" to="/contact">
+        <a id="link" href="#contact">
           Contact
-        </Link>
+        </a>
       </div>
     </div>
   );
